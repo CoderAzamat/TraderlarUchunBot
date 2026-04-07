@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>VIP Bot — Admin Panel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-brand">
+            <div class="brand-icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="brand-text">
+                <span class="brand-name">VIP Bot</span>
+                <span class="brand-sub">Admin Panel</span>
+            </div>
+            <button class="close-btn" onclick="toggleSidebar()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="sidebar-section">
+            <span class="section-label">Asosiy</span>
+            <nav class="nav-menu">
+                <a class="nav-item active" data-page="dashboard">
+                    <span class="nav-icon"><i class="fa-solid fa-house"></i></span>
+                    <span class="nav-label">Dashboard</span>
+                </a>
+                <a class="nav-item" data-page="users">
+                    <span class="nav-icon"><i class="fa-solid fa-users"></i></span>
+                    <span class="nav-label">Foydalanuvchilar</span>
+                </a>
+                <a class="nav-item" data-page="payments">
+                    <span class="nav-icon"><i class="fa-solid fa-credit-card"></i></span>
+                    <span class="nav-label">To'lovlar</span>
+                    <span class="nav-badge" id="pending-badge">0</span>
+                </a>
+                <a class="nav-item" data-page="subscriptions">
+                    <span class="nav-icon"><i class="fa-solid fa-star"></i></span>
+                    <span class="nav-label">Obunalar</span>
+                </a>
+            </nav>
+        </div>
+
+        <div class="sidebar-section">
+            <span class="section-label">Boshqaruv</span>
+            <nav class="nav-menu">
+                <a class="nav-item" data-page="channels">
+                    <span class="nav-icon"><i class="fa-brands fa-telegram"></i></span>
+                    <span class="nav-label">VIP Kanallar</span>
+                </a>
+                <a class="nav-item" data-page="plans">
+                    <span class="nav-icon"><i class="fa-solid fa-layer-group"></i></span>
+                    <span class="nav-label">Rejalar</span>
+                </a>
+                <a class="nav-item" data-page="broadcast">
+                    <span class="nav-icon"><i class="fa-solid fa-bullhorn"></i></span>
+                    <span class="nav-label">Broadcast</span>
+                </a>
+                <a class="nav-item" data-page="settings">
+                    <span class="nav-icon"><i class="fa-solid fa-sliders"></i></span>
+                    <span class="nav-label">Sozlamalar</span>
+                </a>
+            </nav>
+        </div>
+
+        <div class="sidebar-footer">
+            <div class="bot-status">
+                <span class="status-led" id="status-led"></span>
+                <span id="status-label">Tekshirilmoqda...</span>
+            </div>
+            <div class="server-time" id="server-time">—</div>
+        </div>
+    </aside>
+
+    <!-- OVERLAY (mobile) -->
+    <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+    <!-- MAIN -->
+    <div class="main" id="main">
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+            <div class="topbar-left">
+                <button class="menu-btn" onclick="toggleSidebar()"><i class="fa-solid fa-bars"></i></button>
+                <div>
+                    <h1 class="topbar-title" id="page-title">Dashboard</h1>
+                    <p class="topbar-path" id="page-path">Bosh sahifa</p>
+                </div>
+            </div>
+            <div class="topbar-right">
+                <button class="topbar-btn" onclick="refreshPage()" title="Yangilash">
+                    <i class="fa-solid fa-rotate-right" id="refresh-icon"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- CONTENT -->
+        <main class="content">
+
+            <!-- ══════════════ DASHBOARD ══════════════ -->
+            <div class="page active" id="page-dashboard">
+
+                <div class="kpi-grid">
+                    <div class="kpi-card kpi-blue">
+                        <div class="kpi-header">
+                            <span class="kpi-label">Jami foydalanuvchilar</span>
+                            <span class="kpi-icon"><i class="fa-solid fa-users"></i></span>
+                        </div>
+                        <div class="kpi-value" id="kpi-totalUsers">—</div>
+                        <div class="kpi-sub"><i class="fa-solid fa-arrow-up"></i> <span id="kpi-todayUsers">—</span> bugun</div>
+                    </div>
+                    <div class="kpi-card kpi-purple">
+                        <div class="kpi-header">
+                            <span class="kpi-label">Faol VIP</span>
+                            <span class="kpi-icon"><i class="fa-solid fa-crown"></i></span>
+                        </div>
+                        <div class="kpi-value" id="kpi-activeVip">—</div>
+                        <div class="kpi-sub">Hozir obunada</div>
+                    </div>
+                    <div class="kpi-card kpi-amber">
+                        <div class="kpi-header">
+                            <span class="kpi-label">Kutayotgan to'lovlar</span>
+                            <span class="kpi-icon"><i class="fa-solid fa-clock"></i></span>
+                        </div>
+                        <div class="kpi-value kpi-alert" id="kpi-pending">—</div>
+                        <div class="kpi-sub"><a onclick="navigateTo('payments')" style="cursor:pointer;color:inherit">Ko'rish →</a></div>
+                    </div>
+                    <div class="kpi-card kpi-green">
+                        <div class="kpi-header">
+                            <span class="kpi-label">Bugungi daromad</span>
+                            <span class="kpi-icon"><i class="fa-solid fa-coins"></i></span>
+                        </div>
+                        <div class="kpi-value" id="kpi-todayIncome">—</div>
+                        <div class="kpi-sub">Oylik: <span id="kpi-monthIncome">—</span></div>
+                    </div>
+                    <div class="kpi-card kpi-teal">
+                        <div class="kpi-header">
+                            <span class="kpi-label">Jami daromad</span>
+                            <span class="kpi-icon"><i class="fa-solid fa-money-bill-trend-up"></i></span>
+                        </div>
+                        <div class="kpi-value" id="kpi-totalIncome">—</div>
+                        <div class="kpi-sub">Barcha vaqt uchun</div>
+                    </div>
+                </div>
+
+                <div class="grid-2">
+                    <div class="card">
+                        <div class="card-head">
+                            <span class="card-title">Oxirgi 7 kun daromad</span>
+                        </div>
+                        <div class="chart-wrap">
+                            <canvas id="chart-income"></canvas>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-head">
+                            <span class="card-title">Oxirgi to'lovlar</span>
+                        </div>
+                        <div class="mini-list" id="recent-payments"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ══════════════ FOYDALANUVCHILAR ══════════════ -->
+            <div class="page" id="page-users">
+                <div class="card">
+                    <div class="card-head">
+                        <span class="card-title">Foydalanuvchilar</span>
+                        <div class="head-tools">
+                            <div class="search-wrap">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" id="user-search" placeholder="Qidirish..." oninput="debounce(() => loadUsers(1), 400)()" />
+                            </div>
+                            <button class="btn btn-outline" onclick="exportUsers()">
+                                <i class="fa-solid fa-file-export"></i> Export
+                            </button>
+                        </div>
+                    </div>
+                    <div class="table-scroll">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Ism</th>
+                                    <th>Telefon</th>
+                                    <th>Balans</th>
+                                    <th>VIP</th>
+                                    <th>Qo'shilgan</th>
+                                    <th>Holat</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="users-tbody"></tbody>
+                        </table>
+                    </div>
+                    <div class="table-footer">
+                        <span class="table-info" id="users-info"></span>
+                        <div class="pagination" id="users-pg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ══════════════ TO'LOVLAR ══════════════ -->
+            <div class="page" id="page-payments">
+                <div class="card">
+                    <div class="card-head">
+                        <span class="card-title">To'lovlar</span>
+                        <div class="head-tools">
+                            <div class="tab-pills">
+                                <button class="pill-btn active" onclick="setPayFilter(null,this)">Barchasi</button>
+                                <button class="pill-btn" onclick="setPayFilter(0,this)">⏳ Kutmoqda</button>
+                                <button class="pill-btn" onclick="setPayFilter(1,this)">✅ Tasdiqlangan</button>
+                                <button class="pill-btn" onclick="setPayFilter(2,this)">❌ Rad etilgan</button>
+                            </div>
+                            <button class="btn btn-outline" onclick="exportPayments()">
+                                <i class="fa-solid fa-file-export"></i> Export
+                            </button>
+                        </div>
+                    </div>
+                    <div class="table-scroll">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Foydalanuvchi</th>
+                                    <th>Telefon</th>
+                                    <th>Reja</th>
+                                    <th>Summa</th>
+                                    <th>Tur</th>
+                                    <th>Holat</th>
+                                    <th>Vaqt</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="payments-tbody"></tbody>
+                        </table>
+                    </div>
+                    <div class="table-footer">
+                        <span class="table-info" id="payments-info"></span>
+                        <div class="pagination" id="payments-pg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ══════════════ OBUNALAR ══════════════ -->
+            <div class="page" id="page-subscriptions">
+                <div class="card">
+                    <div class="card-head">
+                        <span class="card-title">Obunalar</span>
+                        <div class="head-tools">
+                            <div class="tab-pills">
+                                <button class="pill-btn active" onclick="setSubFilter(null,this)">Barchasi</button>
+                                <button class="pill-btn" onclick="setSubFilter(true,this)">✅ Faol</button>
+                                <button class="pill-btn" onclick="setSubFilter(false,this)">⛔ Tugagan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-scroll">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Foydalanuvchi</th>
+                                    <th>Telefon</th>
+                                    <th>Reja</th>
+                                    <th>Boshlanish</th>
+                                    <th>Tugash</th>
+                                    <th>Qoldi</th>
+                                    <th>Holat</th>
+                                </tr>
+                            </thead>
+                            <tbody id="subs-tbody"></tbody>
+                        </table>
+                    </div>
+                    <div class="table-footer">
+                        <span class="table-info" id="subs-info"></span>
+                        <div class="pagination" id="subs-pg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ══════════════ VIP KANALLAR ══════════════ -->
+            <div class="page" id="page-channels">
+                <div class="card">
+                    <div class="card-head">
+                        <span class="card-title">VIP Kanallar</span>
+                        <button class="btn btn-primary" onclick="openChannelModal()">
+                            <i class="fa-solid fa-plus"></i> Yangi kanal
+                        </button>
+                    </div>
+                    <div class="channels-grid" id="channels-grid"></div>
+                </div>
+            </div>
+
+            <!-- ══════════════ REJALAR ══════════════ -->
+            <div class="page" id="page-plans">
+                <div class="card">
+                    <div class="card-head">
+                        <span class="card-title">Rejalar</span>
+                        <button class="btn btn-primary" onclick="openPlanModal()">
+                            <i class="fa-solid fa-plus"></i> Yangi reja
+                        </button>
+                    </div>
+                    <div class="plans-grid" id="plans-grid"></div>
+                </div>
+            </div>
+
+            <!-- ══════════════ BROADCAST ══════════════ -->
+            <div class="page" id="page-broadcast">
+                <div class="card broadcast-card">
+                    <div class="card-head"><span class="card-title">Broadcast — Hammaga Xabar</span></div>
+                    <div class="broadcast-body">
+                        <div class="form-field">
+                            <label>Xabar matni</label>
+                            <textarea id="bc-text" rows="6" placeholder="HTML teglar: &lt;b&gt;qalin&lt;/b&gt;, &lt;i&gt;kursiv&lt;/i&gt;, &lt;code&gt;kod&lt;/code&gt;"></textarea>
+                        </div>
+                        <div class="bc-preview" id="bc-preview" style="display:none"></div>
+                        <div class="broadcast-actions">
+                            <button class="btn btn-ghost" onclick="previewBc()"><i class="fa-solid fa-eye"></i> Ko'rish</button>
+                            <button class="btn btn-primary" onclick="sendBc()" id="bc-btn">
+                                <i class="fa-solid fa-paper-plane"></i> Yuborish
+                            </button>
+                        </div>
+                        <div id="bc-result"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ══════════════ SOZLAMALAR ══════════════ -->
+            <div class="page" id="page-settings">
+                <div class="settings-grid">
+                    <div class="card">
+                        <div class="card-head"><span class="card-title">Bot Sozlamalari</span></div>
+                        <div id="settings-body" class="settings-body"></div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- ══════════ MODALS ══════════ -->
+    <!-- Foydalanuvchi detail -->
+    <div class="modal-bg" id="modal-user">
+        <div class="modal modal-lg">
+            <div class="modal-head">
+                <h2 id="modal-user-title">Foydalanuvchi</h2>
+                <button class="modal-close" onclick="closeModal('modal-user')"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body" id="modal-user-body"></div>
+        </div>
+    </div>
+
+    <!-- Kanal -->
+    <div class="modal-bg" id="modal-channel">
+        <div class="modal">
+            <div class="modal-head">
+                <h2 id="modal-channel-title">VIP Kanal</h2>
+                <button class="modal-close" onclick="closeModal('modal-channel')"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="ch-id" />
+                <div class="form-field">
+                    <label>Kanal nomi</label>
+                    <input type="text" id="ch-name" placeholder="Silver VIP" />
+                </div>
+                <div class="form-field">
+                    <label>Telegram Kanal ID</label>
+                    <input type="text" id="ch-tgid" placeholder="-1001234567890" />
+                    <span class="field-hint">@userinfobot yoki @getmyid_bot orqali bilib oling</span>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" id="ch-active" checked />
+                    <label for="ch-active">Faol holat</label>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-ghost" onclick="closeModal('modal-channel')">Bekor</button>
+                    <button class="btn btn-primary" onclick="saveChannel()">Saqlash</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reja -->
+    <div class="modal-bg" id="modal-plan">
+        <div class="modal">
+            <div class="modal-head">
+                <h2 id="modal-plan-title">Reja</h2>
+                <button class="modal-close" onclick="closeModal('modal-plan')"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="pl-id" />
+                <div class="form-row">
+                    <div class="form-field">
+                        <label>Reja nomi</label>
+                        <input type="text" id="pl-name" placeholder="1 oylik" />
+                    </div>
+                    <div class="form-field">
+                        <label>VIP Kanal</label>
+                        <select id="pl-channel"></select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-field">
+                        <label>Kun soni</label>
+                        <input type="number" id="pl-days" placeholder="30" min="1" />
+                    </div>
+                    <div class="form-field">
+                        <label>Narx (UZS)</label>
+                        <input type="number" id="pl-price" placeholder="300000" min="0" />
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" id="pl-active" checked />
+                    <label for="pl-active">Faol holat</label>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-ghost" onclick="closeModal('modal-plan')">Bekor</button>
+                    <button class="btn btn-primary" onclick="savePlan()">Saqlash</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chek ko'rish -->
+    <div class="modal-bg" id="modal-receipt">
+        <div class="modal">
+            <div class="modal-head">
+                <h2>To'lov Cheki</h2>
+                <button class="modal-close" onclick="closeModal('modal-receipt')"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body" id="modal-receipt-body"></div>
+        </div>
+    </div>
+
+    <!-- TOAST -->
+    <div id="toasts"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

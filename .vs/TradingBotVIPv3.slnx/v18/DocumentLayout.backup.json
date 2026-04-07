@@ -1,0 +1,500 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\telegrambotazamat\\TradingBotVIPv3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\bot\\updatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\bot\\updatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\bot\\adminhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\bot\\adminhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\bot\\adminkeyboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\bot\\adminkeyboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\bot\\keyboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\bot\\keyboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\bot\\adminstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\bot\\adminstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\data\\models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\data\\models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\data\\models\\traderchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\data\\models\\traderchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\services\\pdfexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\services\\pdfexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\jobs\\expiresubscriptionsjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\jobs\\expiresubscriptionsjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\data\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\data\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\tradingbotvipv3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\tradingbotvipv3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\controllers\\adminapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\controllers\\adminapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\wwwroot\\admin\\css\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\wwwroot\\admin\\css\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\wwwroot\\admin\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\wwwroot\\admin\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\wwwroot\\admin\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\wwwroot\\admin\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\helpers\\timehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\helpers\\timehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\controllers\\botconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\controllers\\botconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\data\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\data\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\data\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\data\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\data\\models\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\data\\models\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\data\\models\\vipchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\data\\models\\vipchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\tradingbotvipv3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\tradingbotvipv3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|d:\\telegrambotazamat\\tradingbotvipv3\\tradingbotvipv3\\config\\botconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9372E249-3FC4-8F73-2789-4F12F927FDAA}|TradingBotVIPv3\\TradingBotVIPv3.csproj|solutionrelative:tradingbotvipv3\\config\\botconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TraderChannel.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\TraderChannel.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Data\\Models\\TraderChannel.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\TraderChannel.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Data\\Models\\TraderChannel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T19:00:44.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminUser.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\AdminUser.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Data\\Models\\AdminUser.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\AdminUser.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Data\\Models\\AdminUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T19:00:29.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:29:47.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Services\\SettingsService.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Services\\SettingsService.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Services\\SettingsService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T09:57:04.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminState.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\AdminState.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Bot\\AdminState.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\AdminState.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Bot\\AdminState.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA6wEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T07:23:26.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Keyboards.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\Keyboards.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Bot\\Keyboards.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\Keyboards.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Bot\\Keyboards.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:45:50.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminKeyboards.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\AdminKeyboards.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Bot\\AdminKeyboards.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\AdminKeyboards.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Bot\\AdminKeyboards.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAqwJcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T07:23:41.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateHandler.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\UpdateHandler.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Bot\\UpdateHandler.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\UpdateHandler.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Bot\\UpdateHandler.cs",
+              "ViewState": "AgIAAKkBAAAAAAAAAAAAALcBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:46:06.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminHandler.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\AdminHandler.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Bot\\AdminHandler.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Bot\\AdminHandler.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Bot\\AdminHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4DAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T07:23:58.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Program.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Program.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Program.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:43:48.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\appsettings.json",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\appsettings.json",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\appsettings.json",
+              "RelativeToolTip": "TradingBotVIPv3\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-06T14:28:35.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExpireSubscriptionsJob.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Jobs\\ExpireSubscriptionsJob.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Jobs\\ExpireSubscriptionsJob.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Jobs\\ExpireSubscriptionsJob.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Jobs\\ExpireSubscriptionsJob.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:45:13.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TradingBotVIPv3\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-07T08:12:10.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PdfExportService.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Services\\PdfExportService.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Services\\PdfExportService.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Services\\PdfExportService.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Services\\PdfExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T07:24:27.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TradingBotVIPv3",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\TradingBotVIPv3.csproj",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\TradingBotVIPv3.csproj",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\TradingBotVIPv3.csproj",
+              "RelativeToolTip": "TradingBotVIPv3\\TradingBotVIPv3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T08:12:05.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminApiController.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Controllers\\AdminApiController.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Controllers\\AdminApiController.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Controllers\\AdminApiController.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Controllers\\AdminApiController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwGcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T07:24:57.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "admin.js",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\wwwroot\\admin\\css\\admin.js",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\wwwroot\\admin\\css\\admin.js",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\wwwroot\\admin\\css\\admin.js",
+              "RelativeToolTip": "TradingBotVIPv3\\wwwroot\\admin\\css\\admin.js",
+              "ViewState": "AgIAAFECAAAAAAAAAADwv2gCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-07T07:20:12.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "admin.css",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\wwwroot\\admin\\css\\admin.css",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\wwwroot\\admin\\css\\admin.css",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\wwwroot\\admin\\css\\admin.css",
+              "RelativeToolTip": "TradingBotVIPv3\\wwwroot\\admin\\css\\admin.css",
+              "ViewState": "AgIAAGAFAAAAAAAAAAAkwKgFAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-07T07:19:44.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\wwwroot\\admin\\index.html",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\wwwroot\\admin\\index.html",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\wwwroot\\admin\\index.html",
+              "RelativeToolTip": "TradingBotVIPv3\\wwwroot\\admin\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL0BAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-07T07:21:02.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Data\\Models\\Setting.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\Setting.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Data\\Models\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:32:00.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TimeHelper.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Helpers\\TimeHelper.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Helpers\\TimeHelper.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Helpers\\TimeHelper.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Helpers\\TimeHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T07:23:07.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BotConroller.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Controllers\\BotConroller.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Controllers\\BotConroller.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Controllers\\BotConroller.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Controllers\\BotConroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:44:27.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Data\\Models\\Payment.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\Payment.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Data\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:31:47.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\Subscription.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Data\\Models\\Subscription.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\Subscription.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Data\\Models\\Subscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:31:02.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Plan.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\Plan.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Data\\Models\\Plan.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\Plan.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Data\\Models\\Plan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:30:42.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VipChannel.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\VipChannel.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Data\\Models\\VipChannel.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\VipChannel.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Data\\Models\\VipChannel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:30:25.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Data\\Models\\User.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Data\\Models\\User.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Data\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:30:07.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BotConfig.cs",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Config\\BotConfig.cs",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\Config\\BotConfig.cs",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\Config\\BotConfig.cs",
+              "RelativeToolTip": "TradingBotVIPv3\\Config\\BotConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T14:28:58.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TradingBotVIPv3.csproj",
+              "DocumentMoniker": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\TradingBotVIPv3.csproj",
+              "RelativeDocumentMoniker": "TradingBotVIPv3\\TradingBotVIPv3.csproj",
+              "ToolTip": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\TradingBotVIPv3.csproj",
+              "RelativeToolTip": "TradingBotVIPv3\\TradingBotVIPv3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-06T14:25:50.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

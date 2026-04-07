@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "6xza1qsa8Rs=",
+  "success": true,
+  "projectFilePath": "D:\\telegrambotazamat\\TradingBotVIPv3\\TradingBotVIPv3\\TradingBotVIPv3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.14\\microsoft.entityframeworkcore.9.0.14.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.14\\microsoft.entityframeworkcore.abstractions.9.0.14.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.14\\microsoft.entityframeworkcore.analyzers.9.0.14.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.1\\microsoft.entityframeworkcore.relational.9.0.1.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\swashbuckle.aspnetcore\\7.3.2\\swashbuckle.aspnetcore.7.3.2.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.3.2\\swashbuckle.aspnetcore.swagger.7.3.2.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.3.2\\swashbuckle.aspnetcore.swaggergen.7.3.2.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\7.3.2\\swashbuckle.aspnetcore.swaggerui.7.3.2.nupkg.sha512",
+    "C:\\Users\\Azam FOREX\\.nuget\\packages\\telegram.bot\\22.9.6\\telegram.bot.22.9.6.nupkg.sha512"
+  ],
+  "logs": []
+}
